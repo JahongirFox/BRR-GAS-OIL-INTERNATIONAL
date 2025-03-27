@@ -157,4 +157,7 @@
     .Footer-Call-images{
         width: 170px;
     }
+    .Center-text-footer>p{
+        font-size: 20px;
+    }
 }
