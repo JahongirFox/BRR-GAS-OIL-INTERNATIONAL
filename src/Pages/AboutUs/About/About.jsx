@@ -2,6 +2,7 @@ import React from "react";
 import './About.css'
 import { motion } from "framer-motion";
 
+
 function About() {
     return(
           <motion.div

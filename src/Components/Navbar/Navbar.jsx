@@ -41,7 +41,7 @@ const toggleMenu = () => {
         <ul className={`nav-links ${isOpen ? "visible" : ""}`} id="nav-links">
           <li><a href="/">Главная</a></li>
           {/* <p>|</p> */}
-          <li><a href="/about-us">О нас</a></li>
+          <li><a href="/aboutus">О нас</a></li>
           {/* <p>|</p> */}
           <li><a href="/">Продукция</a></li>
           {/* <p>|</p> */}
