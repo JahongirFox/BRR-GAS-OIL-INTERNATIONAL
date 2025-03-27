@@ -8,9 +8,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
     height: auto;
+    color: white;
 }
 a{
   text-decoration: none;
+  color: white;
 }
 .Nav-flex{
     display: flex;
@@ -89,12 +91,12 @@ body {
     padding: 0;
   }
 
-  .nav-links li link {
+  .nav-links li {
     text-decoration: none;
     color: white;
     font-size: 25px;
   }
-  .nav-links li a:hover {
+  .nav-links li :hover {
     color: #CD7A4A;
     transition: 0.5s;
   }
@@ -122,12 +124,12 @@ body {
       font-size: 24px;
       font-weight: 400;
   }
-  .nav-links li link {
+  .nav-links li  {
     text-decoration: none;
     color: black;
     font-size: 15px;
   }
-  .nav-links li link:hover {
+  .nav-links li :hover {
     text-decoration: none;
     color: black;
     font-size: 10px;
