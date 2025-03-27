@@ -45,12 +45,12 @@
     }
     .About-p>p{
         /* font-size: 20px; */
-        font-size: clamp(10px, 4vw, 60px) ;
+        font-size: clamp(5px, 4vw, 60px) ;
         margin-top: 5%;
     }
     .About-p>li{
         /* font-size: 20px; */
-        font-size: clamp(10px, 4vw, 60px) ;
+        font-size: clamp(5px, 4vw, 60px) ;
         padding-top: 7px;
     }
 }
