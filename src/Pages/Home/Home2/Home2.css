@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Home2{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+.Home2>p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    padding: 7%;
+    color: white;
+    text-align: center;
+}
+.Home2-card1{
+    background-color: white;
+    width: 500px;
+    height: 460px;
+    border-radius: 30px;
+}
+.Home2-card1>img{
+    border-radius: 30px;
+}
+.Home2-card1>p{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+.Home2-Flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Home2-card11>p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+.Flex-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:1400px){
+    .Home2-card11{
+        display: none;
+    }
+
+}
+@media (max-width:1100px){
+    
+   .Home2-Flex{
+        display: block;
+   }
+   .Home2{
+        background-color: black;
+        width: 100%;
+        /* height: auto; */
+    }
+    .Block-Gap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Home2-card1{
+        margin-top: 40px;
+    }
+
+}
+@media (max-width: 570px){
+    .Home2>p{
+        font-size: 40px;
+    }
+    .Home2-card1{
+        width: 400px;
+        /* height: auto; */
+    }
+    .Home2-card1>p{
+        font-size: 20px;
+    }
+    .Home2-card1>img{
+        width: 400px;
+    }
+}
+@media (max-width: 436px){
+ 
+    .Home2>p{
+        font-size: 30px;
+    }
+    .Home2-card1{
+        width: 300px;
+        height: 300px;
+    }
+    .Home2-card1>p{
+        font-size: 15px;
+    }
+    .Home2-card1>img{
+        width: 300px;
+    }
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.About-Page{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.About-Page>p{
+    font-size: 50px;
+    text-align: center;
+    color: #CD7A4A;
+    padding-top: 4%;
+}
+.About-p>p{
+    color: white;
+    font-size: 27px;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 3%;
+}
+.About-p>li{
+    color: white;
+    font-size: 27px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+.About-Text-Center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width: 1200px){
+    .About-Page>p{
+        padding-top: 10%;
+    }
+}
+@media(max-width: 670px){
+    .About-Page>p{
+        padding-top: 13%;
+        font-size: 40px;
+    }
+    .About-p>p{
+        font-size: 20px;
+
+        margin-top: 5%;
+    }
+    .About-p>li{
+        font-size: 20px;
+        padding-top: 7px;
+    }
+}
+@media(max-width: 480px){
+    .About-Page>p{
+        padding-top: 15%;
+        font-size: 30px;
+    }
+    .About-p>p{
+        font-size: 15px;
+
+        margin-top: 5%;
+    }
+    .About-p>li{
+        font-size: 15px;
+        padding-top: 7px;
+    }
+}
+@media(max-width: 370px){
+    .About-Page>p{
+        padding-top: 15%;
+        font-size: 30px;
+    }
+    .About-p>p{
+        font-size: 13px;
+
+        margin-top: 5%;
+    }
+    .About-p>li{
+        font-size: 13px;
+        padding-top: 7px;
+    }
+}

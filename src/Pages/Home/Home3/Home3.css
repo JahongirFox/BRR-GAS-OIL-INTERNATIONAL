@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Home3{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+.Home3>p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    padding-top: 10%;
+    color: white;
+    text-align: center;
+}
+.Flex-the-5-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    margin-top: 5%;
+}
+.Images-is-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Flex-the-5-images2{
+    display: none;
+}
+@media(max-width: 1100px){
+    .Home3>p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 50px;
+        padding-top: 15%;
+        color: white;
+        text-align: center;
+    }
+    .Flex-the-5-images{
+        display: none;
+    }
+    .Flex-the-5-images2{
+        display: block ;
+        line-height: 100px;
+        margin-top: 8%;
+    }
+    .Flex-the-5-images2>img{
+      width: 200px;
+    }
+}
+@media(max-width: 570px){
+    .Home3>p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 40px;
+        padding-top: 15%;
+        color: white;
+        text-align: center;
+    }
+}
+@media(max-width: 436px){
+    .Home3>p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        padding-top: 25%;
+        color: white;
+        text-align: center;
+    }
+    .Flex-the-5-images2{
+        margin-top: 15%;
+    }
+}
