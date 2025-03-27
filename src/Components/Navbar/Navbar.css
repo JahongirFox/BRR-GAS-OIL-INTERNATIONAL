@@ -89,7 +89,7 @@ body {
     padding: 0;
   }
 
-  .nav-links li a {
+  .nav-links li link {
     text-decoration: none;
     color: white;
     font-size: 25px;
@@ -122,12 +122,12 @@ body {
       font-size: 24px;
       font-weight: 400;
   }
-  .nav-links li a {
+  .nav-links li link {
     text-decoration: none;
     color: black;
     font-size: 15px;
   }
-  .nav-links li a:hover {
+  .nav-links li link:hover {
     text-decoration: none;
     color: black;
     font-size: 10px;
