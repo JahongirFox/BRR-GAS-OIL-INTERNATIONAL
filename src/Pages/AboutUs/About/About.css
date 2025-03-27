@@ -74,12 +74,27 @@
         font-size: 30px;
     }
     .About-p>p{
-        font-size: 12px;
+        font-size: 11px;
 
         margin-top: 5%;
     }
     .About-p>li{
-        font-size: 12px;
+        font-size: 11px;
+        padding-top: 7px;
+    }
+}
+@media(max-width: 370px){
+    .About-Page>p{
+        padding-top: 15%;
+        font-size: 30px;
+    }
+    .About-p>p{
+        font-size: 10px;
+
+        margin-top: 5%;
+    }
+    .About-p>li{
+        font-size: 10px;
         padding-top: 7px;
     }
 }
