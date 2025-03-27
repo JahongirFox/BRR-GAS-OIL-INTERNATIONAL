@@ -4,23 +4,19 @@ import BRR from './brrpng.png'
 import telefon from './telefon.png'
 import telegram from './telegram.png'
 import insta from './insta.png'
-import { motion } from "framer-motion";
 
 function Footer() {
     return(
-         <motion.div
-            initial={{ opacity: 0, x: 0 }}
-            animate={{ opacity: 3, x: 0 }}
-            exit={{ opacity: 0, x: 0 }}
-            transition={{ duration: 2 }}
-          >
         <div className="Footer">
             <div className="Flex-all-divs">
                     <div className="Footer-BRR-GAS-OIL">
                         <div className="Center-img-footer">
-                            <img width={70} src={BRR} alt="" /> 
+                            <img width={60} src={BRR} alt="" /> 
                         </div>
-                        <p>BRR GAS OIL <br />INTERNATIONAL</p>
+                        <div className="Center-text-footer">
+
+                             <p>BRR GAS OIL <br />INTERNATIONAL</p>
+                        </div>
                     </div>
                         <div className="Footer-Work-Time">
                             <p>График работы:</p>
@@ -41,8 +37,7 @@ function Footer() {
             <div className="Footer-space">
             </div>
 
-        </div>  
-        </motion.div>
+        </div> 
     )
 }
 

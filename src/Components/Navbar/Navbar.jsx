@@ -2,22 +2,22 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom"; // Link ishlatilmoqda
 import "./Navbar.css";
 import BRR from "./brrpng.png";
-import { motion } from "framer-motion";
+import {  useLocation } from "react-router-dom";
+import {  useEffect } from "react";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation(); // URL-ni kuzatish uchun
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen);
+    setIsOpen((prev) => !prev);
   };
 
-  return (
-    <motion.div
-      initial={{ opacity: 0, x: 0 }}
-      animate={{ opacity: 1, x: 0 }}
-      exit={{ opacity: 0, x: 0 }}
-      transition={{ duration: 2 }}
-    >
+  // URL o'zgarganda menyuni yopish
+  useEffect(() => {
+    setIsOpen(false);
+  }, [location.pathname]);
+  return(
       <div className="Navbar">
         <div className="Flex-div">
           <Link to="/">
@@ -26,17 +26,7 @@ function Navbar() {
               <p>BRR GAS OIL <br /> INTERNATIONAL</p>
             </div>
           </Link>
-
-          {/* Hamburger Menu */}
-          <div
-            className={`menu-toggle ${isOpen ? "open" : ""}`}
-            onClick={toggleMenu}
-          >
-            <div className="bar"></div>
-            <div className="bar"></div>
-            <div className="bar"></div>
-          </div>
-
+          <div className={`menu-toggle ${isOpen ? "open" : ""}`} onClick={toggleMenu}> ☰ </div>
           {/* Nav Links */}
           <ul className={`nav-links ${isOpen ? "visible" : ""}`} id="nav-links">
             <li><Link to="/">Главная</Link></li>
@@ -48,7 +38,6 @@ function Navbar() {
           </ul>
         </div>
       </div>
-    </motion.div>
   );
 }
 

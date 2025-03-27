@@ -1,14 +1,7 @@
 import React from "react";
-import { motion } from "framer-motion";
 import './Home1.css'
 function Home1() {
     return (
-        <motion.div
-        initial={{ opacity: 0, x: 0 }}
-        animate={{ opacity: 3, x: 0 }}
-        exit={{ opacity: 0, x: 0 }}
-        transition={{ duration: 2 }}
-      >
             <div className="Home">
             
                 {/* <p className="Home-p">Закажите качественные моторные <br /> масла для своего производства</p> */}
@@ -21,7 +14,6 @@ function Home1() {
                 </div>
 
             </div>
-            </motion.div>
 
     )
 }

@@ -63,6 +63,7 @@ body {
     cursor: pointer;
     flex-direction: column;
     gap: 5px;
+    font-size:26px;
   }
   
   .menu-toggle .bar {
@@ -86,6 +87,7 @@ body {
   .nav-links {
     list-style-type: none;
     display: flex;
+    display: none;
     gap: 70px;
     margin: 0;
     padding: 0;
@@ -94,11 +96,14 @@ body {
   .nav-links li {
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
   }
   .nav-links li :hover {
     color: #CD7A4A;
     transition: 0.5s;
+    font-size: 15px;
+    color: black;
+
   }
   
   .nav-links.hidden {
@@ -126,13 +131,11 @@ body {
   }
   .nav-links li  {
     text-decoration: none;
-    color: black;
     font-size: 15px;
   }
   .nav-links li :hover {
     text-decoration: none;
-    color: black;
-    font-size: 10px;
+    font-size: 15px;
   }
     .nav-links {
       flex-direction: column;
@@ -142,11 +145,11 @@ body {
       padding: 3vh 0vh;
       margin-top: 8vh;
       position: absolute;
-      gap: 30px;
+      gap: 23px;
       top: 50px;
       right: 20px;
-      height: 350px;
-      width: 200px;
+      height: 300px;
+      width: 170px;
       display: none;
     }
   

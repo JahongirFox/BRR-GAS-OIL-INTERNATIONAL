@@ -1,17 +1,9 @@
 import React from "react";
 import './About.css'
-import { motion } from "framer-motion";
 
 
 function About() {
     return(
-          <motion.div
-            initial={{ opacity: 0, x: 0 }}
-            animate={{ opacity: 3, x: 0 }}
-            exit={{ opacity: 0, x: 0 }}
-            transition={{ duration: 2 }}
-          >
-        <>
             <div className="About-Page">
                 <p>О нас</p>
                     <div className="About-Text-Center">
@@ -25,8 +17,7 @@ function About() {
                         </div>
                     </div>
             </div>
-        </>   
-        </motion.div>
+ 
     )
 }
 

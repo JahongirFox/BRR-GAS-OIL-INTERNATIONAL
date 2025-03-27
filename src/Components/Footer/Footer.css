@@ -10,16 +10,17 @@
 }
 .Footer{
     width: 100%;
-    height: 50vh;
+    height: auto;
     background-color: black;
     /* border: 1px solid white; */
 }
-.Footer-BRR-GAS-OIL>p{
+.Center-text-footer>p{
     text-align: center;
     color: white;
-    font-size: 27px;
-    margin-top: 5%;
-    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .Footer-BRR-GAS-OIL{
     display: block;
@@ -28,16 +29,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 10px;
 }
 .Footer-Work-Time>p{
     color: white;
-    font-family: Arial, sans-serif;
-    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
 }
 .Footer-Work-Time>h4{
     color: white;
     font-weight: 300;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
     padding-top: 10px;
     line-height: 40px;
@@ -46,9 +49,9 @@
     text-decoration: none;
     color: white;
     font-size: 25px;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-    font-weight: 400;
+    font-weight: 300;
     line-height: 35px;
 }
 .Footer-Call-number>a:hover{
@@ -65,8 +68,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 230px;
-    margin-top: 15px;
+    width: 215px;
+    margin-top: 17px;
 }
 .Footer-text{
     display: block;
@@ -80,65 +83,78 @@
 .Flex-all-divs{
     padding-top: 10%;
 }
-@media(max-width:1250px){
-    .Footer{
-        height: auto;
-    }
+@media(max-width: 1130px){
     .Flex-all-divs{
         display: block;
+        padding-top: 30%;
     }
     .Footer-Work-Time>p{
         text-align: center;
-        margin-top: 50px;
+        margin-top: 5%;
+        font-size: 25px;
+
     }
     .Footer-Work-Time>h4{
         text-align: center;
+        font-size: 20px;
+        line-height: 30px;
+
+
+    }
+    .Footer-Work-Time-Center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
     }
     .images-a-center{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 50px;
+        margin-top: 5%;
     }
-}
-@media(max-width:470px){
     .Footer-Call-number>a{
-        text-decoration: none;
-        color: white;
-        font-size: 23px;
-        font-family: Arial, sans-serif;
-        font-weight: 300;
-        line-height: 35px;
+        font-size: 22px;
+        
     }
     .Footer-Call-images{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 200px;
-        margin-top: 15px;
+        width: 180px;
     }
-    .Footer{
-        height: auto;
-    }
+}
+@media(max-width: 1130px){
     .Flex-all-divs{
         display: block;
-        padding-top: 15%;
     }
     .Footer-Work-Time>p{
-        font-size: 25px;
         text-align: center;
-        margin-top: 60px;
+        margin-top: 5%;
+        font-size: 20px;
+
     }
     .Footer-Work-Time>h4{
         text-align: center;
         font-size: 17px;
-        line-height: 28px;
-        margin-top: 2%;
+        line-height: 27px;
+
+
+    }
+    .Footer-Work-Time-Center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
     }
     .images-a-center{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 50px;
+        margin-top: 5%;
+    }
+    .Footer-Call-number>a{
+        font-size: 20px;
+        
+    }
+    .Footer-Call-images{
+        width: 170px;
     }
 }
