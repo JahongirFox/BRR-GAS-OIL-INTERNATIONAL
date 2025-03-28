@@ -124,7 +124,7 @@
     .Home-p{
         color: rgb(255, 255, 25
         5);
-        font-size: clamp(5px, 4vw, 55px) ;
+        font-size: clamp(5px, 4.5vw, 55px) ;
         font-weight: 300;
         text-align: center;
         padding-top: 30%;
