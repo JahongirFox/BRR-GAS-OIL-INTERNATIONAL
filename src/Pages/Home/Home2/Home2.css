@@ -75,7 +75,23 @@
 }
 @media (max-width: 570px){
     .Home2>p{
-        font-size: 40px;
+        font-size: 30px;
+    }
+    .Home2-card1{
+        width: 400px;
+        /* height: auto; */
+    }
+    .Home2-card1>p{
+        font-size: 20px;
+    }
+    .Home2-card1>img{
+        width: 400px;
+    }
+}
+@media (max-width: 650px){
+    .Home2>p{
+        font-size: 35px;
+        padding-top: 9%;
     }
     .Home2-card1{
         width: 400px;
@@ -91,7 +107,8 @@
 @media (max-width: 436px){
  
     .Home2>p{
-        font-size: 30px;
+        font-size: 25px;
+        padding-top: 20%;
     }
     .Home2-card1{
         width: 300px;

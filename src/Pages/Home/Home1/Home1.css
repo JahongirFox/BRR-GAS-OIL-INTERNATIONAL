@@ -8,7 +8,7 @@
     background-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
-    height: 60vh;
+    height: 100vh;
 }
 .Home-p{
     color: rgb(255, 255, 255);
@@ -68,6 +68,9 @@
     margin-top: 50px;
 }
 @media(max-width: 670px){
+    .Home{
+        height: auto;
+    }
     .Home-p{
         color: rgb(255, 255, 255);
         font-size: clamp(5px, 5vw, 55px) ;
