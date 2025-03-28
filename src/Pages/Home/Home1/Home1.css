@@ -122,8 +122,9 @@
 }
 @media(max-width: 430px){
     .Home-p{
-        color: rgb(255, 255, 255);
-        font-size: clamp(5px, 5vw, 55px) ;
+        color: rgb(255, 255, 25
+        5);
+        font-size: clamp(5px, 4vw, 55px) ;
         font-weight: 300;
         text-align: center;
         padding-top: 30%;
